@@ -15,13 +15,15 @@ const CourseGoals: FC<CourseGoalsProps> = ({
   onDelete,
 }: CourseGoalsProps) => {
   return (
-    <article>
-      <div className="container">
-        {children}
-        <h2>{title}</h2>
-      </div>
-      <button onClick={() => onDelete(id)}>Delete</button>
-    </article>
+    <>
+      <article>
+        <div className="container">
+          {children}
+          <h2>{title}</h2>
+        </div>
+        <button onClick={() => onDelete(id)}>Delete</button>
+      </article>
+    </>
   );
 };
 
