@@ -1,0 +1,10 @@
+body{
+  background-color: rgb(8, 39, 39);
+}
+
+.container{
+  background: rebeccapurple;
+    width: 142px;
+    margin: 20px;
+    color: white;
+}
