@@ -1,5 +1,5 @@
 import React, { FormEvent, useRef } from 'react';
-
+import './NewGoal.css';
 interface onAddGoal {
   onAddGoal: (goal: string, summary: string) => void;
 }

@@ -1,0 +1,74 @@
+/* Container for the whole page */
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  margin: 0;
+}
+
+/* Container for the goals list */
+.courseGoalsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+  gap: 20px;
+  max-width: 600px; /* Max width to prevent overflowing */
+  text-align: center;
+  margin-left: 395px;
+  margin-top: 20px;
+}
+
+/* Card styling */
+.card {
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cardDescription {
+  font-size: 14px;
+  color: #666;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* InfoBox styles (for empty and warning messages) */
+.hint {
+    /* margin-bottom: 15px; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: -16px; */
+    color: red;
+}
+
+.warning {
+  display: grid;
+  justify-content: center;
+  /* margin-top: -16px; */
+  color: red;
+}
